@@ -4,10 +4,14 @@
     <title>Our Funky HTML Page</title>
     <meta name="description" content="Our first page" />
     <meta name="keywords" content="html tutorial template" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1>Hello world, welcome to our Wordle clone</h1>
+  <body onload="test2()">
+    <h1 class="title">Hello world, welcome to our Wordle clone</h1>
     Content goes here.
+    <br />
+    <input id="wordle-word" placeholder="enter your word here" />
+    <button onclick="validateWord()">Submit</button>
   </body>
+  <script type="text/javascript" src="./scripts.js"></script>
 </html>
